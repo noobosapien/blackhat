@@ -7,8 +7,8 @@ import threading
 import time
 from netaddr import IPNetwork, IPAddress
 
-host = "172.24.118.140"
-subnet = "172.24.118.0/24"
+host = "192.168.1.15"
+subnet = "192.168.1.0/24"
 
 message = "New Message"
 
