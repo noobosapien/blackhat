@@ -1,6 +1,6 @@
-import nmap3
+import nmap
 
-Nmap_obj = nmap3.PortScanner()
+Nmap_obj = nmap.PortScanner()
 
 Nmap_obj.scan('192.168.1.15', '1-1024')
 
